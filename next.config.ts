@@ -15,13 +15,13 @@ const nextConfig: NextConfig = {
   },
   reactStrictMode: true,
   // Suppress hydration warnings caused by browser extensions
-  onRecoverableError: (error: any) => {
-    if (error.message.includes('Hydration')) {
-      console.log('Suppressing hydration error:', error.message);
-    } else {
-      throw error;
-    }
-  },
+  // onRecoverableError: (error: any) => {
+  //   if (error.message.includes('Hydration')) {
+  //     console.log('Suppressing hydration error:', error.message);
+  //   } else {
+  //     throw error;
+  //   }
+  // },
 };
 
 module.exports = {
