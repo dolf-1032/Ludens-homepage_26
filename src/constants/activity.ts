@@ -15,7 +15,7 @@ export const YEAR_LIST = ["전체", "9기", "8기", "7기", "6기", "5기"];
 // 예시로 언리얼 스터디 항목을 배열 형태로 변경
 export const ACTIVITY_LIST: Activity[] = [
   {
-    id: "33",
+    id: "32",
     title: "9기 게임 제작 발표회",
     type: "세미나",
     year: "9기",
@@ -23,7 +23,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "한 학기 동안 만든 게임을 서로 플레이 하며 평가 및 게임 체험",
   },
   {
-    id: "32",
+    id: "31",
     title: "BEAVER ROCKS 견학",
     type: "행사",
     year: "9기",
@@ -31,7 +31,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "인디게임 컬처 페스티벌 BEAVER ROCKS 견학",
   },
   {
-    id: "31",
+    id: "30",
     title: "12월 정기총회",
     type: "세미나",
     year: "9기",
@@ -39,7 +39,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "부원들의 세미나 및 12월 게임제작발표회 홍보",
   },
   {
-    id: "30",
+    id: "29",
     title: "11월 정기총회",
     type: "세미나",
     year: "9기",
@@ -47,7 +47,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "동아리 활동 점검 및 활동 소개",
   },
   {
-    id: "29",
+    id: "28",
     title: "10월 정기총회",
     type: "세미나",
     year: "9기",
@@ -55,7 +55,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "동아리 활동 점검 및 활동 소개",
   },
   {
-    id: "28",
+    id: "27",
     title: "9기 개강총회",
     type: "세미나",
     year: "9기",
@@ -63,7 +63,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "동아리 활동 소개 및 점검",
   },
   {
-    id: "27",
+    id: "26",
     title: "연합 알고리즘 스터디",
     type: "스터디",
     year: ["8기", "9기"],
@@ -71,7 +71,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "알고리즘 동아리 KHUA 주관 연합 알고리즘 스터디",
   },
   {
-    id: "26",
+    id: "25",
     title: "8기 게임 제작 발표회",
     type: "세미나",
     year: "8기",
@@ -79,7 +79,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "8기 기간 동안 제작한 게임을 발표하는 행사 진행",
   },
   {
-    id: "25",
+    id: "24",
     title: "언리얼 페스타 서울 2025",
     type: "행사",
     year: "8기",
@@ -87,7 +87,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "다양한 산업 분야에서 사용되는 언리얼 엔진 기술 경험",
   },
   {
-    id: "24",
+    id: "23",
     title: "언리얼 스터디",
     type: "스터디",
     year: "8기",
@@ -95,7 +95,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "언리얼 에디터의 기본적인 개념 학습",
   },
   {
-    id: "23",
+    id: "22",
     title: "4월 정기총회",
     type: "세미나",
     year: "8기",
@@ -103,7 +103,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "4월 정기 총회 및 동아리 스티커 배부",
   },
   {
-    id: "22",
+    id: "21",
     title: "25-1 MT",
     type: "친목활동",
     year: "8기",
@@ -111,7 +111,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "부원들과 친목 활동 진행",
   },
   {
-    id: "21",
+    id: "20",
     title: "펄어비스 사옥 방문",
     type: "행사",
     year: "8기",
@@ -119,7 +119,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "기업 컨택 활동 진행",
   },
   {
-    id: "20",
+    id: "19",
     title: "유니티 스터디",
     type: "학술활동",
     year: "8기",
@@ -127,7 +127,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "기초 유니티 엔진 개념 학습 활동",
   },
   {
-    id: "19",
+    id: "18",
     title: "리턴 얼라이브 대회",
     type: "친목활동",
     year: "8기",
@@ -135,7 +135,7 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "KOG사의 '리턴 얼라이브' 대회 진행",
   },
   {
-    id: "18",
+    id: "17",
     title: "8기 개강총회",
     type: "세미나",
     year: "8기",
@@ -143,20 +143,12 @@ export const ACTIVITY_LIST: Activity[] = [
     description: "동아리 소개 및 활동 안내",
   },
   {
-    id: "17",
+    id: "16",
     title: "연합 파이썬 스터디",
     type: "스터디",
     year: "8기",
     date: "2025.03.02",
     description: "루덴스 X 하이퍼 연합 파이썬 스터디",
-  },
-  {
-    id: "16",
-    title: "24-2 루덴스 게임 제작 발표회",
-    type: "세미나",
-    year: "7기",
-    date: "2024.12.20",
-    description: "코그, 크래프톤과 함께한 게임 제작 발표회",
   },
   {
     id: "15",

@@ -188,4 +188,63 @@ export const PROJECT_LIST: Project[] = [
             },
         ],
     },
+    {
+        id: 'elemental-soul',
+        title: 'ELEMENTAL SOUL',
+        subTitle: '로그라이트, 속성-액션 RPG',
+        links: [
+            {
+                type: 'youtube',
+                href: 'https://youtu.be/tsAK7p2qDQg',
+            },
+        ],
+    },
+    {
+        id: 'elementee',
+        title: 'Elementee',
+        subTitle: '2D 모바일 퍼즐 액션 게임',
+        links: [
+            {
+                type: 'youtube',
+                href: 'https://www.youtube.com/watch?v=aIhGWxj5F2w',
+            },
+        ],
+    },
+    {
+        id: 'swipe-swipe',
+        title: 'Swipe Swipe',
+        subTitle: '3D 멀티, 전략, 추리, 청소 게임, PC',
+    },
+    {
+        id: 'nutopia',
+        title: 'NUTOPIA',
+        subTitle: '3인칭 어드벤처',
+        links: [
+            {
+                type: 'github',
+                href: 'https://github.com/Song-Yerin/Ouri_New',
+            },
+        ],
+    },
+    {
+        id: 'memor',
+        title: 'MEMOR',
+        subTitle: '2D 스토리 RPG 게임',
+    },
+    {
+        id: 'soul-bar',
+        title: 'Soul Bar',
+        subTitle: '1인칭 칵테일 제작 시뮬레이션 게임',
+        links: [
+            {
+                type: 'github',
+                href: 'https://github.com/dpqksr5501/Bartender_Simul',
+            },
+        ],
+    },
+    {
+        id: 'jellu',
+        title: 'JELLU',
+        subTitle: '캐주얼 FPS, 로그라이크, 3인 협동 멀티플레이',
+    },
 ];
