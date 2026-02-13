@@ -9,7 +9,7 @@ const OriginFooter = () => {
                         Copyright ⓒ 2025 Ludens. All rights reserved.
                         <br />
                         Created by <span className="text-white font-semibold"><a href="https://grden.github.io" target="_blank" rel="noopener noreferrer">김정원</a>, <a href="https://github.com/CuriHuS/" target="_blank" rel="noopener noreferrer">최현승</a>
-                        , 한채연</span>
+                        , 한채연 | <a href="https://github.com/dpqksr5501" target="_blank" rel="noopener noreferrer">관리 조연우</a></span>
                     </p>
                     <div className="flex flex-col md:flex-row gap-2 items-center">
                         <span className="text-lg font-bold">Ludens와 소통하기</span>

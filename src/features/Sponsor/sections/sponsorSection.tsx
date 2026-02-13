@@ -5,7 +5,7 @@ import SponsorCard from '../components/sponsorCard';
 export default function SponsorSection() {
     return (
         <section className="w-full flex flex-col items-center">
-            <div className="w-fit grid grid-cols-1 gap-x-12 gap-y-0 md:grid-cols-2">
+            <div className="w-fit grid grid-cols-1 gap-x-12 gap-y-0">
                 {SPONSOR_LIST.map((sponsor) => (
                     <SponsorCard key={sponsor.title} {...sponsor}/>
                 ))}

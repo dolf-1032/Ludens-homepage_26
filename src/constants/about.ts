@@ -14,12 +14,12 @@ export type ActivityType = {
 export const QUANTIFIED_INFO: QuantifiedInfoType[] = [
     {
         title: '루덴스가 시작한지',
-        number: 4,
+        number: 6,
         unit: '년',
     },
     {
         title: '교내외 공모전 수상',
-        number: 20,
+        number: 30,
         unit: '회',
     },
     {
@@ -28,9 +28,9 @@ export const QUANTIFIED_INFO: QuantifiedInfoType[] = [
         unit: '개↑',
     },
     {
-        title: '6기 부원 수',
-        number: 100,
-        unit: '명↑',
+        title: '8, 9기 부원 수',
+        number: 150,
+        unit: '명',
     },
 ];
 

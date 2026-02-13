@@ -6,9 +6,57 @@ export type Award = {
     holder?: string;
   };
   
-  export const YEAR_LIST = ['전체', '2024', '2023', '2022'];
+  export const YEAR_LIST = ['전체', '2025', '2024', '2023', '2022'];
   
   export const AWARD_LIST: Award[] = [
+    {
+      year: '2025',
+      title: 'GEEKS 게임 시스템',
+      place: '디자인상',
+      holder: 'ELEMENTAL SOUL',
+    },
+    {
+      year: '2025',
+      title: '충남글로벌게임센터 인디게임파크 인큐베이팅 사업',
+      place: '우수상',
+      holder: 'ELEMENTAL SOUL',
+    },
+    {
+      year: '2025',
+      title: '경희대학교 실감미디어 경진대회',
+      place: '장려상',
+      holder: 'ELEMENTAL SOUL',
+    },
+    {
+      year: '2025',
+      title: '글로벌게임챌린지(GGC)',
+      place: '금상',
+      holder: '전우치',
+    },
+    {
+      year: '2025',
+      title: '경희대학교 소프트웨어융합학과 ShoWcase',
+      place: '우수상',
+      holder: '쓱싹쓱싹',
+    },
+    {
+      year: '2025',
+      title: '경희대학교 소프트웨어융합학과 ShoWcase',
+      place: '대상',
+      holder: '전우치',
+    },
+    {
+      year: '2025',
+      title: 'SW페스티벌 게임/실감미디어 부문',
+      place: '우수상',
+      holder: '전우치',
+    },
+    {
+      year: '2025',
+      title: '경희대학교 예술적인 소프트웨어',
+      place: '대상',
+      holder: '전우치',
+    },
     {
       year: '2024',
       title: '경희대학교 SW페스티벌',
