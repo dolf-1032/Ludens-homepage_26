@@ -16,7 +16,7 @@ export default function ProjectSection() {
   );
 
   const onClickShowMore = () => {
-    setVisibleProjects((prev) => prev + INITIAL_VISIBLE_PROJECTS);
+    setVisibleProjects(PROJECT_LIST.length);
   };
 
   return (
