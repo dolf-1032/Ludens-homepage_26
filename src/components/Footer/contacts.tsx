@@ -88,7 +88,7 @@ function Contacts() {
                       &times;
                   </button>
                   
-                  <h3 className="text-xl font-bold text-white mb-6">후원 문의</h3>
+                  <h3 className="text-xl font-bold text-white mb-6">문의</h3>
                   <div className="text-gray-200 space-y-2 text-base w-full">
                       <p><span className="font-semibold text-white">회장</span> 권신혁</p>
                       <p>tlsgur0427@khu.ac.kr</p>

@@ -1,10 +1,9 @@
+// src/features/Sponsor/sections/sponsorSection.tsx
 "use client";
 
 import { useState } from 'react';
 import { SPONSOR_LIST } from '@/constants/sponsor';
 import SponsorCard from '../components/sponsorCard';
-import Image from 'next/image';
-import kogIcon from '@/assets/icons/kog.png';
 
 export default function SponsorSection() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -15,27 +14,13 @@ export default function SponsorSection() {
     return (
         <section className="w-full flex flex-col items-center">
             
-            {/* 👇 후원사 목록과 코그 이미지를 가로(row)로 나란히 묶어주는 부모 박스 👇 */}
-            <div className="flex flex-col md:flex-row items-center justify-center gap-12 mt-8">
-                
-                {/* 1. 왼쪽: 후원사 목록 */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-                    {SPONSOR_LIST.map((sponsor) => (
-                        <SponsorCard key={sponsor.title} {...sponsor}/>
-                    ))}
-                </div>
-
-                {/* 2. 오른쪽: 코그 이미지 */}
-                <div className="flex justify-center">
-                    <Image 
-                        src={kogIcon} 
-                        alt="코그" 
-                        className="w-32 h-auto opacity-80" 
-                    />
-                </div>
-                
+            {/* 후원사 목록: */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center mt-8">
+                {SPONSOR_LIST.map((sponsor) => (
+                    <SponsorCard key={sponsor.title} {...sponsor}/>
+                ))}
             </div>
-            {/* 👆 ======================================================= 👆 */}
+            {/* ====================================================================== */}
 
             {/* 후원 문의 버튼 */}
             <button 
