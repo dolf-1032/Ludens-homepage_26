@@ -15,6 +15,15 @@ function getPlaceText(place: string): string {
   if (place.includes('우수상')) {
     return '🥈' + place;
   }
+  if (place.includes('장려상')) {
+    return '✨' + place;
+  }
+  if (place.includes('주니어상')) {
+    return '👶🏻' + place;
+  }
+  if (place.includes('특별상')) {
+    return '💖' + place;
+  }
   return place;
 }
 

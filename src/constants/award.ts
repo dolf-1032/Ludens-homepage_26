@@ -118,6 +118,18 @@ export type Award = {
       holder: 'KingMini',
     },
     {
+      year: '2023',
+      title: '경희대학교 예술적인 소프트웨어',
+      place: '장려상',
+      holder: '헤이 주디',
+    },
+    {
+      year: '2023',
+      title: '한국청소년게임문화협의회',
+      place: '특별상',
+      holder: '헤이 주디',
+    },
+    {
       year: '2022',
       title: '코로나 극복 동아리 대항전',
       place: '우수상',
