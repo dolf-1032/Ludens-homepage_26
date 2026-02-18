@@ -30,7 +30,7 @@ export const QUANTIFIED_INFO: QuantifiedInfoType[] = [
     {
         title: '8, 9기 부원 수',
         number: 150,
-        unit: '명',
+        unit: '명↑',
     },
 ];
 
